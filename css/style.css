@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#produtos2{
+    width: 80%;
+    min-height: 80vh;
+    margin: 0 auto;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+#produtos{
+    display: flex;
+    flex-direction:row ;
+    min-height: 400px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#cadastros{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 130px;
+    width: 100%;
+    background-color: rgb(80, 83, 180);
+}
+.inputs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.input{
+    width: 25%;
+    border-radius: 10px;
+    border-style: none;
+    text-align: center;
+}
+#btn{
+    width: 100%;
+}
+#btn1{
+    margin: 0 40%;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    min-height: 60px;
+    border-style: none;
+    width: 20%;
+}
